@@ -64,11 +64,6 @@ html {
   justify-content: space-between;
 }
 
-.search-form__fieldset {
-  display: flex;
-  flex-direction: column;
-}
-
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
@@ -127,7 +122,7 @@ html {
   overflow: hidden;
   line-height: 16.2px;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3; 
+  -webkit-line-clamp: 3;
 }
 
 .title {
@@ -155,6 +150,8 @@ html {
 
 .search-form__fieldset {
   display: flex;
+  display: flex;
+  flex-direction: column;
   gap: 5px;
   border: none;
 }
@@ -218,7 +215,6 @@ html {
 
 .search-form__pseudo-checkbox::after {
   content: '';
-  position: absolute;
   display: none;
   width: 15px;
   height: 15px;
