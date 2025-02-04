@@ -57,6 +57,7 @@ html {
   flex-grow: 1;
   grid-area: content__details;
   gap: 26px;
+  min-width: 399px;
 }
 
 .search-form {
@@ -102,6 +103,7 @@ html {
 }
 
 .content__card-link {
+  display: block;
   color: #fff;
   text-decoration: none;
 }
@@ -269,6 +271,10 @@ html {
 }
 
 .content__card-link_current {
+  background-color: #545050;
+}
+
+.content__card-link:active {
   background-color: #545050;
 }
 
